@@ -1,0 +1,33 @@
+
+mkdir data_preprocess2
+
+
+AcqKnowledge:
+
+I. For zscore signals:
+1. Channel 1: Analysis
+	-> Detect and Classify Heartbeats
+	-> Locate Human ECG Complex Boundaries
+	-> Heart Rate Variability -> Output: Show raw tachogram -> save to .mat & Show interpolated tachogram -> save to .mat
+2. Channel 5: Transform
+	-> Digital Filters -> FIR -> High pass filtering: Fixed at 0.02 Hz
+3. Channel 3: Transform
+	-> Digital Filters -> FIR -> Band pass filtering: Fixed at 0.1 Hz to 5 Hz
+4. Channel 3: Analysis
+	-> Respiration -> Penh Analysis
+5. 1. clik at the beginning of the Journal (the window at bottom)
+    2. Display -> Show -> Event Palette -> Summarize in Journal
+    3. save to *_process2.mat
+    4. save .acq
+    5. save the Journal as .jcq
+6. linux system -> bash jcq2txt.sh
+
+
+II. For nozscore signals:
+1. Channel 1: Analysis
+	-> Detect and Classify Heartbeats
+	-> Locate Human ECG Complex Boundaries
+	-> Heart Rate Variability -> Output: Show raw tachogram -> save to .mat & Show interpolated tachogram -> save to .mat
+
+
+

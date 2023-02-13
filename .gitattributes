@@ -1,2 +1,0 @@
-data.zip filter=lfs diff=lfs merge=lfs -text
-data_preprocess2.zip filter=lfs diff=lfs merge=lfs -text

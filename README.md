@@ -4,7 +4,7 @@ Data and example scripts of paper "ChallengeDetect: Investigating the Potential 
 The original data in AcqKnowledge fotmat (.acq) and Matlab format (.mat) can be downloaded from https://pan.baidu.com/s/11c0DkZ27XYzzMN2GKfKDlA?pwd=61gk
     where the file "time-episode.xlsx" is the segmented times of the events, and the files in name "CORGIS_????.csv" are the questionnaire ratings.
 
-We also provide a simple example recipe of detecting challenge using Random Forest and evaluated with K-fold cross vaildation.
+We also provide a simple example recipe of detecting challenge using Random Forest and evaluated with K-fold cross validation.
     Matlab are required in order to run the scripts (which were written based on Matlab version 2021b).
 
 First, you can run "preprocess1.m" in Matlab for preprocessing.

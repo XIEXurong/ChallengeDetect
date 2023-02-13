@@ -25,6 +25,6 @@ Third, run "preprocess3.m" in Matlab for preprocessing.
 
 Finally, run "process.m" in Matlab for feature extration and Random Forest based regression. It will show the results like:
 
-'On average, MAE = 0.67, RMSE = 0.88, Acc_2 = 83.6%, F1_2 = 72.0%'
+    'On average, MAE = 0.67, RMSE = 0.88, Acc_2 = 83.6%, F1_2 = 72.0%'
 
 

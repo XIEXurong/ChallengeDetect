@@ -21,9 +21,9 @@ Second, the steps in "preprocess2.txt" should be done with AcqKnowledge software
 
 ").
 
-Third, run "preprocess3.m" in Matlab for preprocessing.
+Third, run "preprocess3.m" in Matlab for feature extration.
 
-Finally, run "process.m" in Matlab for feature extration and Random Forest based regression. It will show the results like:
+Finally, run "process.m" in Matlab for formatting and Random Forest based regression. It will show the results like:
 
     'On average, MAE = 0.67, RMSE = 0.88, Acc_2 = 83.6%, F1_2 = 72.0%'
 

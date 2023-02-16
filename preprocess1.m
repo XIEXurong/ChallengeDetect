@@ -18,12 +18,12 @@ for name_id=1:name_num
     % plot(time(1:10000),data_ecg(1:10000),'b');
 
     data_ecg_median = data_ecg;
-    medFilt1 = dsp.MedianFilter(200); % 200ms median filter
-    medFilt2 = dsp.MedianFilter(600); % 600ms median filter
+    medFilt1 = dsp.MedianFilter(200);
+    medFilt2 = dsp.MedianFilter(600);
     data_ecg_median = medFilt1(data_ecg_median);
-    data_ecg_median = medFilt2(data_ecg_median); % baseline wander
+    data_ecg_median = medFilt2(data_ecg_median);
     % plot(time(1:10000),data_ecg_median(1:10000),'r');
-    data_ecg_bwr = data_ecg - data_ecg_median; % baseline wander removal
+    data_ecg_bwr = data_ecg - data_ecg_median;
     % plot(time(1:10000),data_ecg_bwr(1:10000),'g');
 
     data_ecg_bwr_zs = zscore(data_ecg_bwr);

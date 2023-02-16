@@ -19,7 +19,7 @@ Second, the steps in "preprocess2.txt" should be done with AcqKnowledge software
     zip -s 0 data_preprocess2.zip --out data_preprocess2_tmp.zip
     unzip data_preprocess2_tmp.zip
 
-").
+).
 
 Third, run "preprocess3.m" in Matlab for feature extration.
 

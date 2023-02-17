@@ -27,4 +27,5 @@ Finally, run "process.m" in Matlab for formatting and Random Forest based regres
 
     'On average, MAE = 0.67, RMSE = 0.88, Acc_2 = 83.6%, F1_2 = 72.0%'
 
-
+# Data Download
+If there is any problem of downloading all zipped files of the data, you can alternatively download them from OSF https://osf.io/5xuaj/?view_only=cb27ed58038a4d87a6e1926a1e445fa7

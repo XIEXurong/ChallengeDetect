@@ -1,7 +1,7 @@
 # ChallengeDetect
 These are the data and example scripts of paper
 
-    X. Peng, X. Xie, et al. "ChallengeDetect: Investigating the Potential of Detecting In-Game Challenge Experience from Physiological Measures".
+    X. Peng, X. Xie, et al. "ChallengeDetect: Investigating the Potential of Detecting In-Game Challenge Experience from Physiological Measures". Accepted by CHI 2023.
 
 Please cite this paper if you use these data or codes.
 
